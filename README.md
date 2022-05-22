@@ -1,3 +1,31 @@
+# はじめてつくるReactアプリ with TypeScript
+
+### 作業場所
+```
+/home/nisigaki/react04/distribution-site
+```
+
+### バージョン
+```
+|-@emotion/react@11.9.0
+|-@emotion/styled@11.8.1
+|-@mui/icons-material@5.8.0
+|-@mui/material@5.8.0
+|-@mui/styles@5.8.0
+|-@testing-library/jest-dom@5.16.4
+|-@testing-library/react@13.2.0
+|-@testing-library/user-event@13.5.0
+|-@typescript-eslint/parser@5.25.0
+|-firebase@9.8.1
+|-react-dom@18.1.0
+|-react-router-dom@6.3.0
+|-react-scripts@5.0.1
+|-react@18.1.0
+|-typescript@4.6.4
+|-web-vitals@2.1.4
+```
+
+　
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
