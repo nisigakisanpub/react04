@@ -24,8 +24,18 @@
 |-typescript@4.6.4
 |-web-vitals@2.1.4
 ```
+### Firebase で collection 内の document を検索条件付きで取得
+```
+import { db, storage } from '../../firebase.ts';
+import { getDocs,collection, query,where  } from "firebase/firestore";
+import { ref, getDownloadURL } from "firebase/storage";
 
-　
+const tileDataRef = await collection(db, "tileData");
+const q = query(tileDataRef, where("keyword", "array-contains", "human"));
+const snapShot = await getDocs(q);
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
